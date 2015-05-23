@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: victheme\n"
+"POT-Creation-Date: 2015-05-23 20:31+0800\n"
+"PO-Revision-Date: 2015-05-23 20:32+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "这个页面被狗吃了。"
+
+#: archive.php:13
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "日期归档: %s"
+
+#: archive.php:15
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "按月归档: %s"
+
+#: archive.php:17
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "按年归档: %s"
+
+#: archive.php:19
+#, php-format
+msgid "Category Archives: %s"
+msgstr "文章分类: %s"
+
+#: archive.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "标签归档: %s"
+
+#: archive.php:23
+#, php-format
+msgid "Author Archives: %s"
+msgstr "作者归档：%s"
+
+#: archive.php:25
+msgid "Archives"
+msgstr "归档"
+
+#: archive.php:61 index.php:39 search.php:33
+msgid "<i class=\"fa fa-angle-left\"></i> Previous"
+msgstr "<i class=\"fa fa-angle-left\"></i> 上一页"
+
+#: archive.php:64 index.php:42 search.php:36
+msgid "Next <i class=\"fa fa-angle-right\"></i>"
+msgstr "下一页 <i class=\"fa fa-angle-right\"></i>"
+
+#: comments.php:16 comments.php:35
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:17 comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; 以前的评论"
+
+#: comments.php:18 comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "新的评论 &rarr;"
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr "评论被PO主关闭了"
+
+#: functions.php:7
+msgid "vic_menu"
+msgstr ""
+
+#: functions.php:44
+#, php-format
+msgid "Page %s"
+msgstr "页面 %s"
+
+#: functions.php:58 header.php:58
+msgid "Search for"
+msgstr "善于搜索..."
+
+#: functions.php:88 functions.php:90
+msgid "Sidebar Right"
+msgstr "右部边栏"
+
+#: functions.php:120
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: functions.php:122
+msgid "Your comment is awaiting moderation."
+msgstr "你的评论正在审核当中..."
+
+#: functions.php:129
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:129
+msgid "(Edit)"
+msgstr ""
+
+#: header.php:60
+msgid "Search"
+msgstr "搜索"

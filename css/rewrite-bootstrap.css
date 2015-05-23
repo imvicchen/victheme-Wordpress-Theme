@@ -1,0 +1,122 @@
+/* 重定义Bootstrap START */
+@media (min-width: 768px){
+    .navbar {
+      border-radius: 0;
+    }
+    .navbar-default .navbar-nav>li>a {
+      padding-top: 0; 
+      padding-bottom: 0; 
+      line-height: 40px;
+      color: #999;
+      font-weight: 600;
+    }
+    .nav>li>a {
+      padding: 0px 25px;
+    }
+}
+.affix{
+    width: 100%;
+    top: 0;
+}
+.navbar{
+    margin: 0;
+    min-height: 40px;
+    box-shadow: none;
+    z-index: 3;
+    opacity: .9;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #999;
+    font-weight: normal;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    background-color: #f2f2f2;
+    color: #555;
+}
+.navbar-brand{
+    height: auto;
+    padding: 0 0 0 15px;
+}
+.navbar-default .navbar-toggle{
+    margin-top:0;
+    margin-bottom: 0;
+}
+.thumbnail{
+    padding: 5px 15px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(229,229,229,0.3);
+}
+.panel{
+    box-shadow: none;
+}
+.panel-default{
+    border:1px solid #efefef;
+}
+.pagination>li>a, .pagination>li>span{
+    color:#1abc9c;
+    border: 1px solid #efefef;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    color: #fff;
+    background-color: #1abc9c;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+    background-color: #1abc9c;
+    border-color: #efefef;
+}
+.pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus{
+    border-color: #efefef;
+}
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+  -webkit-box-shadow: inset 0 -2px 0 #1abc9c;
+  box-shadow: inset 0 -2px 0 #1abc9c;
+}
+.btn {
+    border: 1px;
+    box-shadow: none;
+}
+.btn-blue{
+    color: #999;
+    background-color: #fff;
+    border:1px solid #efefef;
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue.focus,
+.btn-blue:active,
+.btn-blue.active,
+.open > .dropdown-toggle.btn-blue {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #efefef;
+}
+.list-group-item{
+  padding: 10px;
+  border: 1px solid #efefef;
+}
+.label-default{
+  background-color: #efefef;
+  color: #a6a6a6;
+}
+.well{
+    background-color: #1abc9c;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3px;
+}
+/* 重定义Bootstrap END */
