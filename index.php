@@ -9,7 +9,7 @@
                             <?php if ( has_post_thumbnail() ) { ?>
                             <?php the_post_thumbnail(); ?>
                             <?php } else {?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/demo01.jpg" alt="<?php the_title(); ?>">
+                            	<!--没有特色图像暂时不显示-->
                             <?php } ?>
                         </a>
                     </div>

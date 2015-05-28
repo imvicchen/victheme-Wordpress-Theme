@@ -41,6 +41,12 @@
     margin-top:0;
     margin-bottom: 0;
 }
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #1abc9c;
+}
 .thumbnail{
     padding: 5px 15px;
     overflow: hidden;
