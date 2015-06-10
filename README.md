@@ -19,7 +19,8 @@
 
 <hr>
 v1.1兼容了多说评论插件，优化了样式，需要将以下CSS代码填写到 个性化设置》基本设置》自定义CSS
-<code>input[type='checkbox']:after, .checkbox input[type='checkbox']:after, .checkbox-inline input[type='checkbox']:after{content:none;}
+
+input[type='checkbox']:after, .checkbox input[type='checkbox']:after, .checkbox-inline input[type='checkbox']:after{content:none;}
 #ds-thread #ds-reset #ds-hot-posts{border:1px solid #dddddd;}
 #ds-reset .ds-gradient-bg{background:none;}
 #ds-thread #ds-reset li.ds-post{border-top: 1px solid #dddddd;}
@@ -35,7 +36,8 @@ v1.1兼容了多说评论插件，优化了样式，需要将以下CSS代码填�
 #ds-thread #ds-reset .ds-textarea-wrapper {border: 1px solid #dddddd;background: #fff;}
 #ds-thread #ds-reset .ds-post-options {border: 1px solid #dddddd;border-bottom-color: #dddddd;}
 #ds-thread #ds-reset .ds-post-button {border: 1px solid #ddd;border-bottom-color: #ddd;}
-#ds-smilies-tooltip{overflow: hidden;}</code>
+#ds-smilies-tooltip{overflow: hidden;}
+
 <hr>
 
 多谢支持!
