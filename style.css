@@ -87,7 +87,7 @@ a:hover {
 .vc-widget-title {
 	font-size: 18px;
 	margin: 0 auto;
-	padding: 15px 15px 0;
+	padding: 0 0 15px;
 }
 /* Blog Content CSS */
 .vc-form-search{
@@ -136,6 +136,9 @@ a:hover {
 	overflow: hidden;
 	margin: 10px auto 10px;
 }
+.vc-panel{
+	padding: 15px;
+}
 .panel.panel-default .vc-copyright {
 	background: #f9f9f9;
 	padding: .5em .7em;
@@ -165,6 +168,30 @@ a:hover {
 .vc-more-link {
 	color: #1abc9c;
 	font-weight: bold;
+}
+/* wp-calendar */
+#wp-calendar {
+	width: 100%;
+	text-align: center;
+}
+#wp-calendar caption {
+	color: #999;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0 0 10px;
+}
+#wp-calendar thead>tr>th {
+	text-align: center;
+}
+#wp-calendar tbody>tr>td {
+	color: #999;
+	padding: 5px 3px;
+}
+#wp-calendar tbody>tr>td>a {
+	color: #1abc9c;
+}
+#wp-calendar tfoot #prev >a {
+	
 }
 /* Comments */
 .comment-respond{
@@ -440,6 +467,20 @@ a:hover {
 	bottom: 0;
 	left: 0;
 }
+.backtop {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    width: 26px;
+    height: 61px;
+    background: url(img/backtop.png) no-repeat 50% 0;
+    display: none;
+    cursor: pointer;
+}
+.backtop:hover {
+    background-position: 50% -62px
+}
+
 /* vPaper THEME END */
 /* Media 适配移动端 和 Retina屏幕 */
 @media screen and (max-width:699px)  {
@@ -477,4 +518,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
 		-webkit-background-size: 150px 40px;
 		background-size: 150px 40px;
 	}
+	.backtop {
+        background-image: url(img/backtop@2x.png);
+        background-size: 26px auto;
+    }
 }

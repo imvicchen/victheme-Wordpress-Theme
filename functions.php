@@ -88,10 +88,10 @@ function victheme_widgets_init(){
         'name' => __('Sidebar Right','victheme'),
         'id' => 'sidebar-right',
         'description' => __('Sidebar Right','victheme'),
-        'before_widget' => '<div id="%1$s" class="panel panel-default" >',
-        'after_widget' => '</div></div>',
+        'before_widget' => '<div id="%1$s" class="panel panel-default vc-panel" >',
+        'after_widget' => '</div>',
         'before_title' => '<h4 class="vc-widget-title">',
-        'after_title' => '</h4><div class="panel-body">'
+        'after_title' => '</h4>'
     ));
 }
 add_action('widgets_init','victheme_widgets_init');
@@ -227,7 +227,37 @@ function init_gitsmilie() {
     add_filter('smilies_src', 'custom_gitsmilie_src', 10, 2);
 }
 add_action('init', 'init_gitsmilie', 5);  
-  
+
+/* 访问计数 */
+function record_visitors()
+{
+	if (is_singular())
+	{
+	  global $post;
+	  $post_ID = $post->ID;
+	  if($post_ID)
+	  {
+		  $post_views = (int)get_post_meta($post_ID, 'views', true);
+		  if(!update_post_meta($post_ID, 'views', ($post_views+1)))
+		  {
+			add_post_meta($post_ID, 'views', 1, true);
+		  }
+	  }
+	}
+}
+add_action('wp_head', 'record_visitors');
+ 
+/// 函数名称：post_views
+/// 函数作用：取得文章的阅读次数
+function post_views($before = '(点击 ', $after = ' 次)', $echo = 1)
+{
+  global $post;
+  $post_ID = $post->ID;
+  $views = (int)get_post_meta($post_ID, 'views', true);
+  if ($echo) echo $before, number_format($views), $after;
+  else return $views;
+}
+
 /*
  * Bootstrap 导航菜单
  */

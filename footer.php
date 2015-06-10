@@ -16,6 +16,7 @@
             </div>
             Powered by <a class="vc-a" href="#!"><?php bloginfo('name'); ?></a> &bull; <?php echo get_option( 'zh_cn_l10n_icp_num' );?> <?php echo stripcslashes(get_option('vc-cnzz')); ?>
         </div>
+        <div class="backtop" title="返回顶部" ></div>
     </footer>
     <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
     <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
