@@ -47,6 +47,6 @@ v1.1<br>
 <br>
 作者信息：<br>
 Vic Chen<br>
-http://www.vicchen.me<br>
+https://vicchen.me<br>
 imvicchen@163.com<br>
 前端开发者,PHPer,喜欢产品和设计...喜欢简简单单的.<br>
